@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Form TAG แท็กที่เกี่ยวกับการป้อนข้อมูล และการเลือกข้อมูล -->
+    <h1>FORM TAG</h1>
+    <hr>
+    <!-- action คือ จุดที่จะเอาข้อมูลที่ป้อนและเลทือกไปทำงาน (Process)-->
+    <!-- method คือ วิธีหรือรูปแบบในการส่งข้อมูลไปยัง action ที่ระบุ -->
+    <!-- method มี 2 แบบ คือ GET / POST / PUSH / DELETE / PATCH -->
+    <form action="" method="">
+        <label for="">ป้อนชื่อ</label>
+        <input type="text" name="" id="">
+        <br><br>
+        <label for="">อายุ</label>
+        <input type="number" name="" id="">
+        <br><br>
+        <label for="">เบอร์โทร</label>
+        <input type="tel" name="" id="">
+        <br><br>
+        <label for="">Email</label>
+        <input type="email" name="" id="">
+        <br><br>
+        <label for="">รหัสผ่าน</label>
+        <input type="password" name="" id="">
+        <br><br>
+        <!-- ตะกูลเลือก -->
+        <label for="">วันเ-เวลา ตกฟาก</label>
+        <input type="datetime-local" name="" id="">
+        <br><br>
+        <label for="">วันเปิดเทอม</label>
+        <input type="date" name="" id="">
+        <br><br>
+        <label for="">เวลาเริ่มงาน</label>
+        <input type="time" name="" id="">
+        <br><br>
+        <!-- เลือกได้อันเดียว และจำเป็นต้องเลือก -->
+        <label for="">เพศ</label>
+        <input type="radio" name="gender" id="" checked value="male">ชาย
+        <input type="radio" name="gender" id="" value="female">หญิง
+        <input type="radio" name="gender" id="" value="LGBTQ+">LGTQ+
+        <br><br>
+        <!-- Dropdowm -->
+        <label for="">จังหวัด</label>
+        <select name="" id="">
+            <option value="111">ระนอง</option>
+            <option value="222">ระยอง</option>
+            <option value="333">ยะลา</option>
+            <option value="444">ตาก</option>
+            <option value="555">ตราด</option>
+        </select>
+        <br><br>
+        <!-- List Box -->
+        <label for="">จังหวัด</label>
+        <select name="" id="" size="3">
+            <option value="111">ระนอง</option>
+            <option value="222">ระยอง</option>
+            <option value="333">ยะลา</option>
+            <option value="444">ตาก</option>
+            <option value="555">ตราด</option>
+        </select>
+        <br><br>
+        <!-- เลือกได้มากกว่าหนึ่ง หรือไม่เลือกก็ได้-->
+        <label for="">อาหารที่ชอบ</label>
+        <input type="checkbox" name="food1" id="" value="KFC">KFC
+        <input type="checkbox" name="food2" id="" value="ข้าวมันไก่">ข้าวมันไก่
+        <input type="checkbox" name="food3" id="" value="Pizza">Pizza
+        <input type="checkbox" name="food4" id="" value="หมูกะทะ">หมูกะทะ
+        <br><br>
+        <!-- พวก Click คือ ปุ่ม -->
+        <button>คลิกเลย!!😎</button>
+        <!-- button จะเอาข้อมูลไปใช้ทำอะไรต้องเขียนโค้ดต่อ -->
+        <input type="submit" value="ตกลง">
+        <!-- submit เอาข้อมูลที่ป้อนไปใช้งาน -->
+        <input type="reset" value="ยกเลิก">
+        <!-- reset เคลียร์ข้อมูลที่ป้อน -->
+    </form>
+</body>
+
+</html>
